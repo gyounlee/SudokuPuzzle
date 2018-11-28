@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="340dp"
+        android:layout_height="424dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="9 0 8 0 0 0 2 0 0\n
+0 0 0 0 0 0 0 0 0\n
+0 5 0 0 0 0 0 0 1\n
+1 0 0 0 7 0 3 2 9\n
+0 9 4 8 0 2 0 0 0\n
+0 0 0 0 0 6 0 0 4\n
+0 2 0 0 0 0 0 9 5\n
+0 0 0 0 0 0 0 0 7\n
+5 1 0 0 0 9 6 0 0" />
+</RelativeLayout>
